@@ -1,0 +1,16 @@
+PODS:
+  - keyri-pod (3.0.0)
+
+DEPENDENCIES:
+  - keyri-pod
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - keyri-pod
+
+SPEC CHECKSUMS:
+  keyri-pod: 6bb6d8cd753e01cfce00ca070be5ebd85be1bfeb
+
+PODFILE CHECKSUM: ca8207408e2e8f3d0116929e37f3b0ec57fe95a4
+
+COCOAPODS: 1.11.3

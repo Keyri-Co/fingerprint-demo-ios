@@ -1,0 +1,1090 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049F94D3B8A94588DBF7945F9C4866E5 /* keyri-pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C4B3491D3CDF6B917B712A07E4CA05 /* keyri-pod-dummy.m */; };
+		0CC2DA0D3EA7E94494F231A43831A02D /* EncryptionUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486D81FB09B576AFEA39D90F429F182B /* EncryptionUtil.swift */; };
+		0F3DC1DADFD41FEAF6CDE6BB2513A082 /* Pods-FingerprintingDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F58CEF6965A36BA57D1920900FC03B /* Pods-FingerprintingDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1395B2A86634322DA457D44565CF95B9 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C7A0F499F02541D265BBE2246BAD2D /* Errors.swift */; };
+		13CDD2FBEB3D6D41A4051C2A27A99BA8 /* KeyriObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52DF38A14C9B3D2389F844E6C83604C /* KeyriObjC.swift */; };
+		15838BA64BD0ADD4FA1FA910F5976130 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3248374A6C80770E4AAA89737D3DA3AF /* Event.swift */; };
+		24092015A644DC06F70D4D69CD6F328C /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E5E9CD4302610F8E3D945CCF5ADDA6 /* UserService.swift */; };
+		271D5B7935677A032284144689E9E124 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E501602FD0DCC8BDFABD48B0B14D34A /* UIViewController+.swift */; };
+		30FFAF8F889EBD2E704779EA13A9BA00 /* KeyriService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D7BAF98FAE7B3104F051CD2702DDB /* KeyriService.swift */; };
+		32BBEC8068D944001901950C1E15EE52 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA068FCB58B70D2E982852BFF1CEEB7 /* Keychain.swift */; };
+		3A60E8D8556FDD73BBAF2626EE8777CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3E59995A35D2FEEB2B3044B32C4EB886 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4363548CA6763DC8D5BE03CBA71A04CF /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC0BAA6F2E32CD75EAB7E38758C5B78 /* LocationData.swift */; };
+		44292C1A09D78C48E61224E91E1B834B /* RiskAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB01C4E03E9BE36C213E665EAA0B50D /* RiskAnalytics.swift */; };
+		4618F0E89C9DFD5780406F9D5164E75B /* Pods-FingerprintingDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5616D3F6B6268ACA6E172BAAD114031 /* Pods-FingerprintingDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CBE03F463B953F4F61036952DB01F7 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900366406CEF5F00380E1479B8315BB6 /* DeviceInfo.swift */; };
+		550330A265547977F0A2CEECCD00A1D5 /* Pods-FingerprintingDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FFB9A6C2ABF71747294E2BC1B8EB82 /* Pods-FingerprintingDemo-dummy.m */; };
+		56F222D3D8FC3161F13E273CB399E438 /* keyri-pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8AABF7F27CD8989C8CBE2AFE4774DD /* keyri-pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		653AFAA67A5E5355B5BA5F5ABFAE8749 /* FPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26E952862369D2CF3E42AAFE2BC968E /* FPError.swift */; };
+		673733EF8C7BF0659C6E84EECE9E452F /* MobileTemplateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2BF7C196D7D6449320A4201BDF4AF /* MobileTemplateResponse.swift */; };
+		7391FCFA650B441D7DF6F546577B5D8C /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A220CB67B7C657B7A19B9F2178A3D9F3 /* EventType.swift */; };
+		78AC346487B589EDA426FF8D3B14810A /* TelemetryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41346AA1FEB31F9376944924D71FFBE /* TelemetryService.swift */; };
+		7A2D14878ADCC16CBCBFA6252A4EED92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7B8B0DEF1773DA236661A17474F85B4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7EFEC72339A2BBD4EC68E3C4AED5CE92 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070314597B96E8274FD8249060F3FFDB /* Config.swift */; };
+		856D5FEA9CBBADAF5DA14A0AD12F00CF /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D22ABBD16370248506F2DA93D336A45 /* SquareView.swift */; };
+		861C81A934BA1AAE87F6B329949AA2D8 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AD0BFD523A430A6EBA0DD356C5AB0F /* Session.swift */; };
+		8BA14BFBB7A3C47AC7E47814F8517F49 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5242976BC8B6C194CA4D74C09D3ADA1 /* String+.swift */; };
+		8E10A03C7018FBBD64A00F6AC9748100 /* ConfirmationScreenUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AC868A37BABAE6C77351A88B7CBE5B /* ConfirmationScreenUIView.swift */; };
+		974494FB3CCD7CC521B6AD1D4D71488B /* QRCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48A81F03625E95430B59561DBBD34A9 /* QRCodeScanner.swift */; };
+		B402374C4AA726AD625874EFB55923D3 /* FingerprintResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D8E4048C5835DF0991E8279F0E674 /* FingerprintResponse.swift */; };
+		B86CEE6AC73794425AB146C405E4E0FC /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42DD9E9615242C6F767FE8375BA949A /* Scanner.swift */; };
+		BB117593ED7EB1E9EA7B2E304562E947 /* UserParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E4292206112507C15334C0A1B26B3 /* UserParameters.swift */; };
+		BE01F558EE89C6EE7E865DC1D343E9BD /* PostBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCFF4F64238C8A3D16F1ABBF742D29 /* PostBody.swift */; };
+		C15038B4448B9E6A679CACFEE704DEBC /* EPDUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6D240CC9AAB1C8F3C83644B7D8244A /* EPDUtil.swift */; };
+		CC6358EA5264F456785A58B6636FDF3E /* Pods-FingerprintingDemo-FingerprintingDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1E9DCAEF749D0A0D9627AE9F27CC1A /* Pods-FingerprintingDemo-FingerprintingDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD0951F04CA917629026759200B711B5 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2143C2F8BFBF2637D3D8CE53E75B87C5 /* Color+.swift */; };
+		D3C04F7D2EDF70CAEF3B9E7056F1C4FB /* GeoDataPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0940D211C0299EC291A9F5A6C5F53751 /* GeoDataPair.swift */; };
+		D962B5D31069F5DFB6A08269757CD950 /* FPLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D1FAC3AB727C9AF29DE3451E903C03 /* FPLocation.swift */; };
+		F18FE2E9343EDEA24D342D92FF88723D /* WidgetUserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B62A254B3E4BC80AADAA128D1B171 /* WidgetUserAgent.swift */; };
+		F2DF2214318B0D4E49410F800672AD54 /* ConfirmationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06038FC83744F90463647C44BF5E09F /* ConfirmationScreen.swift */; };
+		F78C9D9D85E73B48C2576812C63D82E0 /* Pods-FingerprintingDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F51DE966E440078A69DB8F977FF0E01 /* Pods-FingerprintingDemoTests-dummy.m */; };
+		F90725571BE94F90D97CADB6E0CBA263 /* Keyri.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42A06374B78AD5F78E31133161BBE09 /* Keyri.swift */; };
+		FA217600476ABE1A3F4CD70C4A8119A4 /* Pods-FingerprintingDemo-FingerprintingDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5CFB11EAABE83803C8EEE33F6F3EBB /* Pods-FingerprintingDemo-FingerprintingDemoUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		767D0D8381625DC7AFC0DD60018E949B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E2369DC2E94FDA1D70D339F9F39A89;
+			remoteInfo = "keyri-pod";
+		};
+		89FE5040F823A85E06E4CBBD3AFFA7E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E2369DC2E94FDA1D70D339F9F39A89;
+			remoteInfo = "keyri-pod";
+		};
+		CE5D5B259F44D30FDFCB26FC18BEA158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33D9CFC7AFB5EE3A8530842211DE44BC;
+			remoteInfo = "Pods-FingerprintingDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06E6A9015174875F723740A042C4720B /* Pods-FingerprintingDemo-FingerprintingDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FingerprintingDemo-FingerprintingDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		070314597B96E8274FD8249060F3FFDB /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = "keyri-pod/Classes/Configs/Config.swift"; sourceTree = "<group>"; };
+		0940D211C0299EC291A9F5A6C5F53751 /* GeoDataPair.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeoDataPair.swift; path = "keyri-pod/Classes/Models/GeoDataPair.swift"; sourceTree = "<group>"; };
+		0D61BAD0A698E4AF8CCF25C2D00B05E3 /* Pods-FingerprintingDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FingerprintingDemo.modulemap"; sourceTree = "<group>"; };
+		0D8AABF7F27CD8989C8CBE2AFE4774DD /* keyri-pod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "keyri-pod-umbrella.h"; sourceTree = "<group>"; };
+		15D1FAC3AB727C9AF29DE3451E903C03 /* FPLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPLocation.swift; path = "keyri-pod/Classes/Models/FPLocation.swift"; sourceTree = "<group>"; };
+		1D22ABBD16370248506F2DA93D336A45 /* SquareView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SquareView.swift; path = "keyri-pod/Classes/Scanner/SquareView.swift"; sourceTree = "<group>"; };
+		2143C2F8BFBF2637D3D8CE53E75B87C5 /* Color+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+.swift"; path = "keyri-pod/Classes/Utils/Color+.swift"; sourceTree = "<group>"; };
+		223D8E4048C5835DF0991E8279F0E674 /* FingerprintResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FingerprintResponse.swift; path = "keyri-pod/Classes/Models/FingerprintResponse.swift"; sourceTree = "<group>"; };
+		28CCFF4F64238C8A3D16F1ABBF742D29 /* PostBody.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostBody.swift; path = "keyri-pod/Classes/Models/PostBody.swift"; sourceTree = "<group>"; };
+		2E1D0005887CF9A9F264CD1B1415CC4E /* Pods-FingerprintingDemo-FingerprintingDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FingerprintingDemo-FingerprintingDemoUITests.modulemap"; sourceTree = "<group>"; };
+		2E501602FD0DCC8BDFABD48B0B14D34A /* UIViewController+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+.swift"; path = "keyri-pod/Classes/Utils/UIViewController+.swift"; sourceTree = "<group>"; };
+		31AD0BFD523A430A6EBA0DD356C5AB0F /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = "keyri-pod/Classes/Models/Session.swift"; sourceTree = "<group>"; };
+		31C7A0F499F02541D265BBE2246BAD2D /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = "keyri-pod/Classes/Utils/Errors.swift"; sourceTree = "<group>"; };
+		3248374A6C80770E4AAA89737D3DA3AF /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = "keyri-pod/Classes/Models/Event.swift"; sourceTree = "<group>"; };
+		38348D504844F05D544F387CA7C8E032 /* keyri-pod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "keyri-pod.debug.xcconfig"; sourceTree = "<group>"; };
+		3E1E9DCAEF749D0A0D9627AE9F27CC1A /* Pods-FingerprintingDemo-FingerprintingDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FingerprintingDemo-FingerprintingDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		3EEC6A91C5F040A2F20345CAC7B73089 /* Pods-FingerprintingDemo-FingerprintingDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FingerprintingDemo-FingerprintingDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		451DA797289A7518A638E24549E8CE6B /* Pods-FingerprintingDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FingerprintingDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		486D81FB09B576AFEA39D90F429F182B /* EncryptionUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EncryptionUtil.swift; path = "keyri-pod/Classes/Utils/EncryptionUtil.swift"; sourceTree = "<group>"; };
+		4F51DE966E440078A69DB8F977FF0E01 /* Pods-FingerprintingDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FingerprintingDemoTests-dummy.m"; sourceTree = "<group>"; };
+		51E0B69B3CF4FDB5C167CC0965C06BB9 /* Pods-FingerprintingDemo-FingerprintingDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FingerprintingDemo-FingerprintingDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56AC868A37BABAE6C77351A88B7CBE5B /* ConfirmationScreenUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmationScreenUIView.swift; path = "keyri-pod/Classes/Utils/ConfirmationScreenUIView.swift"; sourceTree = "<group>"; };
+		56DA3590118A6DB4E579DF41D0DFE5DE /* Pods-FingerprintingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FingerprintingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5AC0BAA6F2E32CD75EAB7E38758C5B78 /* LocationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationData.swift; path = "keyri-pod/Classes/Models/LocationData.swift"; sourceTree = "<group>"; };
+		5D185D77EC2377826063D8932DCF09E3 /* Pods-FingerprintingDemo-FingerprintingDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FingerprintingDemo-FingerprintingDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D8B62A254B3E4BC80AADAA128D1B171 /* WidgetUserAgent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetUserAgent.swift; path = "keyri-pod/Classes/Models/WidgetUserAgent.swift"; sourceTree = "<group>"; };
+		5DE2BF7C196D7D6449320A4201BDF4AF /* MobileTemplateResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MobileTemplateResponse.swift; path = "keyri-pod/Classes/Models/MobileTemplateResponse.swift"; sourceTree = "<group>"; };
+		636B7B757C933AB61B43CFD42EEE4751 /* keyri-pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "keyri-pod.modulemap"; sourceTree = "<group>"; };
+		63FFB9A6C2ABF71747294E2BC1B8EB82 /* Pods-FingerprintingDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FingerprintingDemo-dummy.m"; sourceTree = "<group>"; };
+		68720412AE37F7C02F5325DB13FAA71E /* Pods-FingerprintingDemo-FingerprintingDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FingerprintingDemo-FingerprintingDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		69B0A5CE577630362A436FB8D878F1C1 /* keyri-pod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "keyri-pod.release.xcconfig"; sourceTree = "<group>"; };
+		6D65288C90F64F0723937636193F5A0A /* Pods-FingerprintingDemo-FingerprintingDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FingerprintingDemo-FingerprintingDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74C651CDDFF8994F0361F9C3DEF0CEC6 /* Pods-FingerprintingDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FingerprintingDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		871EBA17F5FC40A202C6D10B3E5FA9F2 /* Pods-FingerprintingDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FingerprintingDemo-Info.plist"; sourceTree = "<group>"; };
+		8CCBF1243FDE806D640DF1E65C50821A /* Pods-FingerprintingDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FingerprintingDemoTests.modulemap"; sourceTree = "<group>"; };
+		900366406CEF5F00380E1479B8315BB6 /* DeviceInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceInfo.swift; path = "keyri-pod/Classes/Utils/DeviceInfo.swift"; sourceTree = "<group>"; };
+		94497C521A4EB7C26D0D1A3F038D282C /* Pods-FingerprintingDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FingerprintingDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99C4B3491D3CDF6B917B712A07E4CA05 /* keyri-pod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "keyri-pod-dummy.m"; sourceTree = "<group>"; };
+		9C9E4292206112507C15334C0A1B26B3 /* UserParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserParameters.swift; path = "keyri-pod/Classes/Models/UserParameters.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E848B69B21A20911FD2493FE5BBB5EC /* Pods-FingerprintingDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FingerprintingDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A003F345BE518529AE3ED8867D43F710 /* Pods-FingerprintingDemo-FingerprintingDemoUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FingerprintingDemo-FingerprintingDemoUITests"; path = Pods_FingerprintingDemo_FingerprintingDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02F4ED2308AC73FBDED145A59B57FCE /* Pods-FingerprintingDemoTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FingerprintingDemoTests"; path = Pods_FingerprintingDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A220CB67B7C657B7A19B9F2178A3D9F3 /* EventType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventType.swift; path = "keyri-pod/Classes/Utils/EventType.swift"; sourceTree = "<group>"; };
+		A3F58CEF6965A36BA57D1920900FC03B /* Pods-FingerprintingDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FingerprintingDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		A48A81F03625E95430B59561DBBD34A9 /* QRCodeScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeScanner.swift; path = "keyri-pod/Classes/Scanner/QRCodeScanner.swift"; sourceTree = "<group>"; };
+		A8899D76095B68F9F61D27EA421C3B8C /* Pods-FingerprintingDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FingerprintingDemoTests-Info.plist"; sourceTree = "<group>"; };
+		B06038FC83744F90463647C44BF5E09F /* ConfirmationScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmationScreen.swift; path = "keyri-pod/Classes/Utils/ConfirmationScreen.swift"; sourceTree = "<group>"; };
+		B5242976BC8B6C194CA4D74C09D3ADA1 /* String+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+.swift"; path = "keyri-pod/Classes/Utils/String+.swift"; sourceTree = "<group>"; };
+		BB5CFB11EAABE83803C8EEE33F6F3EBB /* Pods-FingerprintingDemo-FingerprintingDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FingerprintingDemo-FingerprintingDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		C28805E2F275D43629CDFCCF7433D885 /* Pods-FingerprintingDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FingerprintingDemo-frameworks.sh"; sourceTree = "<group>"; };
+		C42A06374B78AD5F78E31133161BBE09 /* Keyri.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keyri.swift; path = "keyri-pod/Classes/Keyri.swift"; sourceTree = "<group>"; };
+		C42DD9E9615242C6F767FE8375BA949A /* Scanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scanner.swift; path = "keyri-pod/Classes/Scanner/Scanner.swift"; sourceTree = "<group>"; };
+		C8811C156794A19851CDFD4B8175B9A7 /* Pods-FingerprintingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FingerprintingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C8E5E9CD4302610F8E3D945CCF5ADDA6 /* UserService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = "keyri-pod/Classes/Services/UserService.swift"; sourceTree = "<group>"; };
+		CA6D240CC9AAB1C8F3C83644B7D8244A /* EPDUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPDUtil.swift; path = "keyri-pod/Classes/Utils/EPDUtil.swift"; sourceTree = "<group>"; };
+		CBB01C4E03E9BE36C213E665EAA0B50D /* RiskAnalytics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RiskAnalytics.swift; path = "keyri-pod/Classes/Models/RiskAnalytics.swift"; sourceTree = "<group>"; };
+		CC7D7BAF98FAE7B3104F051CD2702DDB /* KeyriService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyriService.swift; path = "keyri-pod/Classes/Services/KeyriService.swift"; sourceTree = "<group>"; };
+		D1068FF65FA6D2404394C902C267A2D8 /* Pods-FingerprintingDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FingerprintingDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D41346AA1FEB31F9376944924D71FFBE /* TelemetryService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TelemetryService.swift; path = "keyri-pod/Classes/Services/TelemetryService.swift"; sourceTree = "<group>"; };
+		D50BFDD38F9D9E0AA5D9FE68950B2081 /* Pods-FingerprintingDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FingerprintingDemo"; path = Pods_FingerprintingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52DF38A14C9B3D2389F844E6C83604C /* KeyriObjC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyriObjC.swift; path = "keyri-pod/Classes/KeyriObjC.swift"; sourceTree = "<group>"; };
+		D5616D3F6B6268ACA6E172BAAD114031 /* Pods-FingerprintingDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FingerprintingDemo-umbrella.h"; sourceTree = "<group>"; };
+		EAA068FCB58B70D2E982852BFF1CEEB7 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = "keyri-pod/Classes/Keychain/Keychain.swift"; sourceTree = "<group>"; };
+		EAA4FDB42D0AB5B4C2CB110937F198E7 /* keyri-pod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "keyri-pod-prefix.pch"; sourceTree = "<group>"; };
+		F26E952862369D2CF3E42AAFE2BC968E /* FPError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPError.swift; path = "keyri-pod/Classes/Models/FPError.swift"; sourceTree = "<group>"; };
+		F6D614ACFEC1CF0881B610165FF33340 /* Pods-FingerprintingDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FingerprintingDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF3FA24D715BC48516279ADFA21C8B14 /* keyri-pod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "keyri-pod"; path = keyri_pod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5FACA1CA3535FFE11E01A65A7CCC2C /* keyri-pod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "keyri-pod-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02E99AD9C96CBB9C6A9F04AED1FCC3E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A60E8D8556FDD73BBAF2626EE8777CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D7092A7E594D84038D93912B6A1FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8B0DEF1773DA236661A17474F85B4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93676E24D4D52BCA2C73DE555B85CB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E59995A35D2FEEB2B3044B32C4EB886 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9BD161B63C78B1F8195CE68F10B6C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2D14878ADCC16CBCBFA6252A4EED92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B9A2537B6D1FE46998F74BF6B1A5847 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3FA24D715BC48516279ADFA21C8B14 /* keyri-pod */,
+				D50BFDD38F9D9E0AA5D9FE68950B2081 /* Pods-FingerprintingDemo */,
+				A003F345BE518529AE3ED8867D43F710 /* Pods-FingerprintingDemo-FingerprintingDemoUITests */,
+				A02F4ED2308AC73FBDED145A59B57FCE /* Pods-FingerprintingDemoTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11AED9537030FC76E4BEB285FA7BC279 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83D6C3F3C02915E3CCAE0A2E12A91108 /* keyri-pod */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D9D8F8A479F2A6B6C4F4049179CCA84 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3333220E3BD5E7C63BB366C50E5A186 /* Pods-FingerprintingDemo */,
+				B3BB08572C02241B8DB4A87D8C774C73 /* Pods-FingerprintingDemo-FingerprintingDemoUITests */,
+				88D2D1BC95FA63D342F43CE576F2E830 /* Pods-FingerprintingDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B6125EFBE2F095A6051B194E3697D3D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				636B7B757C933AB61B43CFD42EEE4751 /* keyri-pod.modulemap */,
+				99C4B3491D3CDF6B917B712A07E4CA05 /* keyri-pod-dummy.m */,
+				FF5FACA1CA3535FFE11E01A65A7CCC2C /* keyri-pod-Info.plist */,
+				EAA4FDB42D0AB5B4C2CB110937F198E7 /* keyri-pod-prefix.pch */,
+				0D8AABF7F27CD8989C8CBE2AFE4774DD /* keyri-pod-umbrella.h */,
+				38348D504844F05D544F387CA7C8E032 /* keyri-pod.debug.xcconfig */,
+				69B0A5CE577630362A436FB8D878F1C1 /* keyri-pod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/keyri-pod";
+			sourceTree = "<group>";
+		};
+		83D6C3F3C02915E3CCAE0A2E12A91108 /* keyri-pod */ = {
+			isa = PBXGroup;
+			children = (
+				2143C2F8BFBF2637D3D8CE53E75B87C5 /* Color+.swift */,
+				070314597B96E8274FD8249060F3FFDB /* Config.swift */,
+				B06038FC83744F90463647C44BF5E09F /* ConfirmationScreen.swift */,
+				56AC868A37BABAE6C77351A88B7CBE5B /* ConfirmationScreenUIView.swift */,
+				900366406CEF5F00380E1479B8315BB6 /* DeviceInfo.swift */,
+				486D81FB09B576AFEA39D90F429F182B /* EncryptionUtil.swift */,
+				CA6D240CC9AAB1C8F3C83644B7D8244A /* EPDUtil.swift */,
+				31C7A0F499F02541D265BBE2246BAD2D /* Errors.swift */,
+				3248374A6C80770E4AAA89737D3DA3AF /* Event.swift */,
+				A220CB67B7C657B7A19B9F2178A3D9F3 /* EventType.swift */,
+				223D8E4048C5835DF0991E8279F0E674 /* FingerprintResponse.swift */,
+				F26E952862369D2CF3E42AAFE2BC968E /* FPError.swift */,
+				15D1FAC3AB727C9AF29DE3451E903C03 /* FPLocation.swift */,
+				0940D211C0299EC291A9F5A6C5F53751 /* GeoDataPair.swift */,
+				EAA068FCB58B70D2E982852BFF1CEEB7 /* Keychain.swift */,
+				C42A06374B78AD5F78E31133161BBE09 /* Keyri.swift */,
+				D52DF38A14C9B3D2389F844E6C83604C /* KeyriObjC.swift */,
+				CC7D7BAF98FAE7B3104F051CD2702DDB /* KeyriService.swift */,
+				5AC0BAA6F2E32CD75EAB7E38758C5B78 /* LocationData.swift */,
+				5DE2BF7C196D7D6449320A4201BDF4AF /* MobileTemplateResponse.swift */,
+				28CCFF4F64238C8A3D16F1ABBF742D29 /* PostBody.swift */,
+				A48A81F03625E95430B59561DBBD34A9 /* QRCodeScanner.swift */,
+				CBB01C4E03E9BE36C213E665EAA0B50D /* RiskAnalytics.swift */,
+				C42DD9E9615242C6F767FE8375BA949A /* Scanner.swift */,
+				31AD0BFD523A430A6EBA0DD356C5AB0F /* Session.swift */,
+				1D22ABBD16370248506F2DA93D336A45 /* SquareView.swift */,
+				B5242976BC8B6C194CA4D74C09D3ADA1 /* String+.swift */,
+				D41346AA1FEB31F9376944924D71FFBE /* TelemetryService.swift */,
+				2E501602FD0DCC8BDFABD48B0B14D34A /* UIViewController+.swift */,
+				9C9E4292206112507C15334C0A1B26B3 /* UserParameters.swift */,
+				C8E5E9CD4302610F8E3D945CCF5ADDA6 /* UserService.swift */,
+				5D8B62A254B3E4BC80AADAA128D1B171 /* WidgetUserAgent.swift */,
+				5B6125EFBE2F095A6051B194E3697D3D /* Support Files */,
+			);
+			name = "keyri-pod";
+			path = "keyri-pod";
+			sourceTree = "<group>";
+		};
+		88D2D1BC95FA63D342F43CE576F2E830 /* Pods-FingerprintingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CCBF1243FDE806D640DF1E65C50821A /* Pods-FingerprintingDemoTests.modulemap */,
+				F6D614ACFEC1CF0881B610165FF33340 /* Pods-FingerprintingDemoTests-acknowledgements.markdown */,
+				9E848B69B21A20911FD2493FE5BBB5EC /* Pods-FingerprintingDemoTests-acknowledgements.plist */,
+				4F51DE966E440078A69DB8F977FF0E01 /* Pods-FingerprintingDemoTests-dummy.m */,
+				A8899D76095B68F9F61D27EA421C3B8C /* Pods-FingerprintingDemoTests-Info.plist */,
+				A3F58CEF6965A36BA57D1920900FC03B /* Pods-FingerprintingDemoTests-umbrella.h */,
+				451DA797289A7518A638E24549E8CE6B /* Pods-FingerprintingDemoTests.debug.xcconfig */,
+				D1068FF65FA6D2404394C902C267A2D8 /* Pods-FingerprintingDemoTests.release.xcconfig */,
+			);
+			name = "Pods-FingerprintingDemoTests";
+			path = "Target Support Files/Pods-FingerprintingDemoTests";
+			sourceTree = "<group>";
+		};
+		A3333220E3BD5E7C63BB366C50E5A186 /* Pods-FingerprintingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0D61BAD0A698E4AF8CCF25C2D00B05E3 /* Pods-FingerprintingDemo.modulemap */,
+				94497C521A4EB7C26D0D1A3F038D282C /* Pods-FingerprintingDemo-acknowledgements.markdown */,
+				74C651CDDFF8994F0361F9C3DEF0CEC6 /* Pods-FingerprintingDemo-acknowledgements.plist */,
+				63FFB9A6C2ABF71747294E2BC1B8EB82 /* Pods-FingerprintingDemo-dummy.m */,
+				C28805E2F275D43629CDFCCF7433D885 /* Pods-FingerprintingDemo-frameworks.sh */,
+				871EBA17F5FC40A202C6D10B3E5FA9F2 /* Pods-FingerprintingDemo-Info.plist */,
+				D5616D3F6B6268ACA6E172BAAD114031 /* Pods-FingerprintingDemo-umbrella.h */,
+				C8811C156794A19851CDFD4B8175B9A7 /* Pods-FingerprintingDemo.debug.xcconfig */,
+				56DA3590118A6DB4E579DF41D0DFE5DE /* Pods-FingerprintingDemo.release.xcconfig */,
+			);
+			name = "Pods-FingerprintingDemo";
+			path = "Target Support Files/Pods-FingerprintingDemo";
+			sourceTree = "<group>";
+		};
+		B3BB08572C02241B8DB4A87D8C774C73 /* Pods-FingerprintingDemo-FingerprintingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E1D0005887CF9A9F264CD1B1415CC4E /* Pods-FingerprintingDemo-FingerprintingDemoUITests.modulemap */,
+				51E0B69B3CF4FDB5C167CC0965C06BB9 /* Pods-FingerprintingDemo-FingerprintingDemoUITests-acknowledgements.markdown */,
+				5D185D77EC2377826063D8932DCF09E3 /* Pods-FingerprintingDemo-FingerprintingDemoUITests-acknowledgements.plist */,
+				BB5CFB11EAABE83803C8EEE33F6F3EBB /* Pods-FingerprintingDemo-FingerprintingDemoUITests-dummy.m */,
+				3EEC6A91C5F040A2F20345CAC7B73089 /* Pods-FingerprintingDemo-FingerprintingDemoUITests-frameworks.sh */,
+				68720412AE37F7C02F5325DB13FAA71E /* Pods-FingerprintingDemo-FingerprintingDemoUITests-Info.plist */,
+				3E1E9DCAEF749D0A0D9627AE9F27CC1A /* Pods-FingerprintingDemo-FingerprintingDemoUITests-umbrella.h */,
+				6D65288C90F64F0723937636193F5A0A /* Pods-FingerprintingDemo-FingerprintingDemoUITests.debug.xcconfig */,
+				06E6A9015174875F723740A042C4720B /* Pods-FingerprintingDemo-FingerprintingDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-FingerprintingDemo-FingerprintingDemoUITests";
+			path = "Target Support Files/Pods-FingerprintingDemo-FingerprintingDemoUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				11AED9537030FC76E4BEB285FA7BC279 /* Pods */,
+				0B9A2537B6D1FE46998F74BF6B1A5847 /* Products */,
+				4D9D8F8A479F2A6B6C4F4049179CCA84 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B3ADDE0D44082833199FD19E9CE36E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3DC1DADFD41FEAF6CDE6BB2513A082 /* Pods-FingerprintingDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663495F752C0097A22A3AE656F92B5F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6358EA5264F456785A58B6636FDF3E /* Pods-FingerprintingDemo-FingerprintingDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954FA517A9643998CDA97BA2D96E1963 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F222D3D8FC3161F13E273CB399E438 /* keyri-pod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE229FE4B757BF286B82DD4A54DC44F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4618F0E89C9DFD5780406F9D5164E75B /* Pods-FingerprintingDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		33D9CFC7AFB5EE3A8530842211DE44BC /* Pods-FingerprintingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49CB09997BA4A0EF17F6BD6739233F0 /* Build configuration list for PBXNativeTarget "Pods-FingerprintingDemo" */;
+			buildPhases = (
+				FE229FE4B757BF286B82DD4A54DC44F3 /* Headers */,
+				6893A7012E7E71908550850D1C8A36BD /* Sources */,
+				71D7092A7E594D84038D93912B6A1FFB /* Frameworks */,
+				7CD4F9C7DFA9582FC85BD3C3A3D35F1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31F06E3C2229BAE142496214F928C748 /* PBXTargetDependency */,
+			);
+			name = "Pods-FingerprintingDemo";
+			productName = Pods_FingerprintingDemo;
+			productReference = D50BFDD38F9D9E0AA5D9FE68950B2081 /* Pods-FingerprintingDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+		3ECDE24948E588444D008E370252D596 /* Pods-FingerprintingDemo-FingerprintingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D2DE075A074F830D866EEF307DCE3E /* Build configuration list for PBXNativeTarget "Pods-FingerprintingDemo-FingerprintingDemoUITests" */;
+			buildPhases = (
+				663495F752C0097A22A3AE656F92B5F4 /* Headers */,
+				560B9FD6160A1D7798C3E1899C79B3D7 /* Sources */,
+				A93676E24D4D52BCA2C73DE555B85CB7 /* Frameworks */,
+				66CE3F673AF6324E1F06972C1E2EA84F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B861C587C77221226F75B83D6CE452D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-FingerprintingDemo-FingerprintingDemoUITests";
+			productName = Pods_FingerprintingDemo_FingerprintingDemoUITests;
+			productReference = A003F345BE518529AE3ED8867D43F710 /* Pods-FingerprintingDemo-FingerprintingDemoUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9E2369DC2E94FDA1D70D339F9F39A89 /* keyri-pod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F747CAAA93AC7AF7609C219B0E07BC /* Build configuration list for PBXNativeTarget "keyri-pod" */;
+			buildPhases = (
+				954FA517A9643998CDA97BA2D96E1963 /* Headers */,
+				273EDF64D2DCF7266ACE12550D7F1BD1 /* Sources */,
+				02E99AD9C96CBB9C6A9F04AED1FCC3E7 /* Frameworks */,
+				343ACBADCAE82A485853931C778C9CF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "keyri-pod";
+			productName = keyri_pod;
+			productReference = FF3FA24D715BC48516279ADFA21C8B14 /* keyri-pod */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFB418574B280641A078CE7737067401 /* Pods-FingerprintingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E159B702C63042905A1AC3F8056115 /* Build configuration list for PBXNativeTarget "Pods-FingerprintingDemoTests" */;
+			buildPhases = (
+				1B3ADDE0D44082833199FD19E9CE36E8 /* Headers */,
+				380C64B2FEF827B0704BD3C040F0A134 /* Sources */,
+				E9BD161B63C78B1F8195CE68F10B6C87 /* Frameworks */,
+				B0E5A7062D0A6FFA8B5A923F75F0CB4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				870FC3F839332F233223B6BFEE6D47C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-FingerprintingDemoTests";
+			productName = Pods_FingerprintingDemoTests;
+			productReference = A02F4ED2308AC73FBDED145A59B57FCE /* Pods-FingerprintingDemoTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0B9A2537B6D1FE46998F74BF6B1A5847 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9E2369DC2E94FDA1D70D339F9F39A89 /* keyri-pod */,
+				33D9CFC7AFB5EE3A8530842211DE44BC /* Pods-FingerprintingDemo */,
+				3ECDE24948E588444D008E370252D596 /* Pods-FingerprintingDemo-FingerprintingDemoUITests */,
+				EFB418574B280641A078CE7737067401 /* Pods-FingerprintingDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		343ACBADCAE82A485853931C778C9CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CE3F673AF6324E1F06972C1E2EA84F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD4F9C7DFA9582FC85BD3C3A3D35F1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E5A7062D0A6FFA8B5A923F75F0CB4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		273EDF64D2DCF7266ACE12550D7F1BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0951F04CA917629026759200B711B5 /* Color+.swift in Sources */,
+				7EFEC72339A2BBD4EC68E3C4AED5CE92 /* Config.swift in Sources */,
+				F2DF2214318B0D4E49410F800672AD54 /* ConfirmationScreen.swift in Sources */,
+				8E10A03C7018FBBD64A00F6AC9748100 /* ConfirmationScreenUIView.swift in Sources */,
+				47CBE03F463B953F4F61036952DB01F7 /* DeviceInfo.swift in Sources */,
+				0CC2DA0D3EA7E94494F231A43831A02D /* EncryptionUtil.swift in Sources */,
+				C15038B4448B9E6A679CACFEE704DEBC /* EPDUtil.swift in Sources */,
+				1395B2A86634322DA457D44565CF95B9 /* Errors.swift in Sources */,
+				15838BA64BD0ADD4FA1FA910F5976130 /* Event.swift in Sources */,
+				7391FCFA650B441D7DF6F546577B5D8C /* EventType.swift in Sources */,
+				B402374C4AA726AD625874EFB55923D3 /* FingerprintResponse.swift in Sources */,
+				653AFAA67A5E5355B5BA5F5ABFAE8749 /* FPError.swift in Sources */,
+				D962B5D31069F5DFB6A08269757CD950 /* FPLocation.swift in Sources */,
+				D3C04F7D2EDF70CAEF3B9E7056F1C4FB /* GeoDataPair.swift in Sources */,
+				32BBEC8068D944001901950C1E15EE52 /* Keychain.swift in Sources */,
+				F90725571BE94F90D97CADB6E0CBA263 /* Keyri.swift in Sources */,
+				049F94D3B8A94588DBF7945F9C4866E5 /* keyri-pod-dummy.m in Sources */,
+				13CDD2FBEB3D6D41A4051C2A27A99BA8 /* KeyriObjC.swift in Sources */,
+				30FFAF8F889EBD2E704779EA13A9BA00 /* KeyriService.swift in Sources */,
+				4363548CA6763DC8D5BE03CBA71A04CF /* LocationData.swift in Sources */,
+				673733EF8C7BF0659C6E84EECE9E452F /* MobileTemplateResponse.swift in Sources */,
+				BE01F558EE89C6EE7E865DC1D343E9BD /* PostBody.swift in Sources */,
+				974494FB3CCD7CC521B6AD1D4D71488B /* QRCodeScanner.swift in Sources */,
+				44292C1A09D78C48E61224E91E1B834B /* RiskAnalytics.swift in Sources */,
+				B86CEE6AC73794425AB146C405E4E0FC /* Scanner.swift in Sources */,
+				861C81A934BA1AAE87F6B329949AA2D8 /* Session.swift in Sources */,
+				856D5FEA9CBBADAF5DA14A0AD12F00CF /* SquareView.swift in Sources */,
+				8BA14BFBB7A3C47AC7E47814F8517F49 /* String+.swift in Sources */,
+				78AC346487B589EDA426FF8D3B14810A /* TelemetryService.swift in Sources */,
+				271D5B7935677A032284144689E9E124 /* UIViewController+.swift in Sources */,
+				BB117593ED7EB1E9EA7B2E304562E947 /* UserParameters.swift in Sources */,
+				24092015A644DC06F70D4D69CD6F328C /* UserService.swift in Sources */,
+				F18FE2E9343EDEA24D342D92FF88723D /* WidgetUserAgent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380C64B2FEF827B0704BD3C040F0A134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78C9D9D85E73B48C2576812C63D82E0 /* Pods-FingerprintingDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560B9FD6160A1D7798C3E1899C79B3D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA217600476ABE1A3F4CD70C4A8119A4 /* Pods-FingerprintingDemo-FingerprintingDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6893A7012E7E71908550850D1C8A36BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550330A265547977F0A2CEECCD00A1D5 /* Pods-FingerprintingDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31F06E3C2229BAE142496214F928C748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "keyri-pod";
+			target = C9E2369DC2E94FDA1D70D339F9F39A89 /* keyri-pod */;
+			targetProxy = 767D0D8381625DC7AFC0DD60018E949B /* PBXContainerItemProxy */;
+		};
+		870FC3F839332F233223B6BFEE6D47C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FingerprintingDemo";
+			target = 33D9CFC7AFB5EE3A8530842211DE44BC /* Pods-FingerprintingDemo */;
+			targetProxy = CE5D5B259F44D30FDFCB26FC18BEA158 /* PBXContainerItemProxy */;
+		};
+		B861C587C77221226F75B83D6CE452D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "keyri-pod";
+			target = C9E2369DC2E94FDA1D70D339F9F39A89 /* keyri-pod */;
+			targetProxy = 89FE5040F823A85E06E4CBBD3AFFA7E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		32201993D1298A3585786151A17233FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DA3590118A6DB4E579DF41D0DFE5DE /* Pods-FingerprintingDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FingerprintingDemo/Pods-FingerprintingDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FingerprintingDemo/Pods-FingerprintingDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3ACBBBFDF2D6D944FCE43FD79F07D410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 451DA797289A7518A638E24549E8CE6B /* Pods-FingerprintingDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FingerprintingDemoTests/Pods-FingerprintingDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FingerprintingDemoTests/Pods-FingerprintingDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79E3F11F26458FF93E69CA3E5F6D5CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8811C156794A19851CDFD4B8175B9A7 /* Pods-FingerprintingDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FingerprintingDemo/Pods-FingerprintingDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FingerprintingDemo/Pods-FingerprintingDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84DBE32B0AA9CC8B16F1FFCA6C74F5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06E6A9015174875F723740A042C4720B /* Pods-FingerprintingDemo-FingerprintingDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FingerprintingDemo-FingerprintingDemoUITests/Pods-FingerprintingDemo-FingerprintingDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FingerprintingDemo-FingerprintingDemoUITests/Pods-FingerprintingDemo-FingerprintingDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		974D91C26D7B2DF1CFA42F7C5D1830A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1068FF65FA6D2404394C902C267A2D8 /* Pods-FingerprintingDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FingerprintingDemoTests/Pods-FingerprintingDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FingerprintingDemoTests/Pods-FingerprintingDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABF00B18D538A80F49884CCCF8F33BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D65288C90F64F0723937636193F5A0A /* Pods-FingerprintingDemo-FingerprintingDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FingerprintingDemo-FingerprintingDemoUITests/Pods-FingerprintingDemo-FingerprintingDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FingerprintingDemo-FingerprintingDemoUITests/Pods-FingerprintingDemo-FingerprintingDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2BF305AF8F5AE2CE0464E277696D7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38348D504844F05D544F387CA7C8E032 /* keyri-pod.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/keyri-pod/keyri-pod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/keyri-pod/keyri-pod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/keyri-pod/keyri-pod.modulemap";
+				PRODUCT_MODULE_NAME = keyri_pod;
+				PRODUCT_NAME = keyri_pod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3AB3F98369B376E5193201FEA1239F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69B0A5CE577630362A436FB8D878F1C1 /* keyri-pod.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/keyri-pod/keyri-pod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/keyri-pod/keyri-pod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/keyri-pod/keyri-pod.modulemap";
+				PRODUCT_MODULE_NAME = keyri_pod;
+				PRODUCT_NAME = keyri_pod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32E159B702C63042905A1AC3F8056115 /* Build configuration list for PBXNativeTarget "Pods-FingerprintingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACBBBFDF2D6D944FCE43FD79F07D410 /* Debug */,
+				974D91C26D7B2DF1CFA42F7C5D1830A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F747CAAA93AC7AF7609C219B0E07BC /* Build configuration list for PBXNativeTarget "keyri-pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BF305AF8F5AE2CE0464E277696D7FD /* Debug */,
+				D3AB3F98369B376E5193201FEA1239F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D2DE075A074F830D866EEF307DCE3E /* Build configuration list for PBXNativeTarget "Pods-FingerprintingDemo-FingerprintingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF00B18D538A80F49884CCCF8F33BE8 /* Debug */,
+				84DBE32B0AA9CC8B16F1FFCA6C74F5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49CB09997BA4A0EF17F6BD6739233F0 /* Build configuration list for PBXNativeTarget "Pods-FingerprintingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E3F11F26458FF93E69CA3E5F6D5CDF /* Debug */,
+				32201993D1298A3585786151A17233FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

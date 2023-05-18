@@ -1,0 +1,6 @@
+framework module Pods_FingerprintingDemo {
+  umbrella header "Pods-FingerprintingDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

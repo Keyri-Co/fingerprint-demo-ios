@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_FingerprintingDemo_FingerprintingDemoUITests : NSObject
+@end
+@implementation PodsDummy_Pods_FingerprintingDemo_FingerprintingDemoUITests
+@end
